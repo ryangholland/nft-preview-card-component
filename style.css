@@ -1,0 +1,26 @@
+:root {
+  --clr-pri-soft-blue: hsl(215, 51%, 70%);
+  --clr-pri-cyan: hsl(178, 100%, 50%);
+
+  --clr-neu-very-dark-blu-main-bg: hsl(217, 54%, 11%);
+  --clr-neu-very-dark-blu-card-bg: hsl(216, 50%, 16%);
+  --clr-neu-very-dark-blue-line: hsl(215, 32%, 27%);
+  --clr-neu-white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
