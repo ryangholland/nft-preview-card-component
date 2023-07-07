@@ -18,10 +18,66 @@
   margin: 0;
   font: inherit;
   font-family: "Outfit", sans-serif;
+  color: var(--clr-neu-white);
 }
 
 img,
 svg {
   display: block;
   max-width: 100%;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--clr-neu-very-dark-blu-main-bg);
+}
+
+.card-container {
+  background-color: var(--clr-neu-very-dark-blu-card-bg);
+  padding: 1.75rem;
+  border-radius: 1rem;
+  display: grid;
+  gap: 1.25rem;
+  max-width: 355px;
+}
+
+.nft-image {
+  min-height: 302px;
+  width: 100%;
+  background-image: url(./images/image-equilibrium.jpg);
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: var(--clr-pri-soft-blue);
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+  letter-spacing: 0.025rem;
+}
+
+.status-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: var(--clr-pri-cyan);
+  font-weight: 600;
+}
+
+hr {
+  border-color: var(--clr-neu-very-dark-blue-line);
+}
+
+.creator-credit {
+    text-align: center;
 }
