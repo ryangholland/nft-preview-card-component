@@ -78,6 +78,18 @@ hr {
   border-color: var(--clr-neu-very-dark-blue-line);
 }
 
+.creation-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.creation-container img {
+  max-height: 40px;
+  border-radius: 50%;
+  border: solid 1px var(--clr-neu-white);
+}
+
 .creator-credit {
     text-align: center;
 }
